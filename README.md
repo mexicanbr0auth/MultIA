@@ -1,0 +1,19 @@
+# MULTIA 
+## PROJETO COM FOCO EM USAR E MONITORAR IAS DE FORMA EFICIENTE COM FERRAMENTAS UTEIS.#
+
+
+
+*REQUISITOS*
+- Python 
+- requests 
+
+
+*SUPPORTE*
+- Android 
+- Linux
+
+
+
+
+
+
