@@ -1,19 +1,16 @@
-# MULTIA 
-## PROJETO COM FOCO EM USAR E MONITORAR IAS DE FORMA EFICIENTE COM FERRAMENTAS UTEIS.#
+# MultiIA
 
+## About
 
+A project focused on using and monitoring AI APIs efficiently,
+with useful tools for developers.
 
-*REQUISITOS*
-- Python 
-- requests 
+## Requirements
 
+- Python
+- Requests
 
-*SUPPORTE*
-- Android 
+## Supported Platforms
+
+- Android
 - Linux
-
-
-
-
-
-
