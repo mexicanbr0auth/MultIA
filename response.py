@@ -9,15 +9,15 @@ class Endpoint:
         with open("endpoints.json", "r") as file:
             self.apis = json.load(file)
     def test(self):
-        for api in self.apis:
+        for name, url in self.apis.items():
             try:
-                get = requests.get(api, timeout=5)
+                get = requests.get(url, timeout=5)
                 if get.status_code == 200:
-                    print(f"[ONLINE]  {api} ")
+                    print(f"[ONLINE]  {name}: {url} ")
                 else:
-                    print(f"[HTTP {get.status_code}] {api} ")
+                    print(f"[HTTP {get.status_code}] {name}: {url} ")
             except requests.RequestException:
-                print(f"[OFFLINE] {api} ")
+                print(f"[OFFLINE] {url} ")
        
 main = Endpoint()
 main.test()
